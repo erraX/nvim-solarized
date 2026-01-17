@@ -146,6 +146,10 @@ function M.setup(p, c)
     BufferLineSeparatorVisible = { fg = bg_alt, bg = bg_alt },
     BufferLineSeparatorSelected = { fg = bg, bg = bg },
     BufferLineOffsetSeparator = { fg = bg_alt, bg = bg_alt },
+    BufferLineDevIconDefault = { fg = p.blue, bg = bg_alt },
+    BufferLineDevIconDefaultVisible = { fg = p.blue, bg = bg_alt },
+    BufferLineDevIconDefaultSelected = { fg = p.blue, bg = bg, bold = c.bold },
+    BufferLineDevIconDefaultInactive = { fg = muted, bg = bg_alt },
 
     ["@comment"] = { fg = muted, italic = c.italic },
     ["@comment.todo"] = { fg = p.magenta, bold = c.bold },
