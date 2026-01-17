@@ -166,7 +166,8 @@ function M.setup(p, c)
     ["@punctuation.delimiter"] = { fg = fg_alt },
     ["@punctuation.bracket"] = { fg = fg_alt },
     ["@tag"] = { fg = p.blue },
-    ["@tag.attribute"] = { fg = p.cyan },
+    ["@tag.builtin"] = { fg = p.blue },
+    ["@tag.attribute"] = { fg = p.yellow },
     ["@tag.delimiter"] = { fg = fg_alt },
     ["@label"] = { fg = p.yellow },
 
@@ -185,6 +186,10 @@ function M.setup(p, c)
     ["@diff.plus"] = { fg = p.green },
     ["@diff.minus"] = { fg = p.red },
     ["@diff.delta"] = { fg = p.yellow },
+
+    TSTag = { fg = p.blue },
+    TSTagDelimiter = { fg = fg_alt },
+    TSTagAttribute = { fg = p.yellow },
   }
 end
 
