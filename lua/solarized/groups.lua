@@ -216,6 +216,9 @@ function M.setup(p, c)
 		["@diff.minus"] = { fg = p.red },
 		["@diff.delta"] = { fg = p.yellow },
 
+		["@lsp.typemod.variable.defaultLibrary"] = { fg = p.orange },
+		["@lsp.typemod.method.defaultLibrary.typescript"] = { fg = p.blue },
+
 		TSTag = { fg = p.blue },
 		TSTagDelimiter = { fg = fg_alt },
 		TSTagAttribute = { fg = p.yellow },
