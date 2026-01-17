@@ -216,8 +216,8 @@ function M.setup(p, c)
 		["@diff.minus"] = { fg = p.red },
 		["@diff.delta"] = { fg = p.yellow },
 
-		["@lsp.typemod.variable.defaultLibrary.typescript"] = { fg = p.orange },
-		["@lsp.typemod.variable.defaultLibrary"] = { fg = p.orange },
+		["@lsp.typemod.variable.defaultLibrary.typescript"] = { fg = p.yellow },
+		["@lsp.typemod.variable.defaultLibrary"] = { fg = p.yellow },
 		["@lsp.typemod.method.defaultLibrary.typescript"] = { fg = p.blue },
 
 		TSTag = { fg = p.blue },
