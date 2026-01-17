@@ -150,6 +150,10 @@ function M.setup(p, c)
     BufferLineDevIconDefaultVisible = { fg = p.blue, bg = bg_alt },
     BufferLineDevIconDefaultSelected = { fg = p.blue, bg = bg, bold = c.bold },
     BufferLineDevIconDefaultInactive = { fg = muted, bg = bg_alt },
+    BufferLineDevIcon = { fg = p.blue, bg = bg_alt },
+    BufferLineDevIconVisible = { fg = p.blue, bg = bg_alt },
+    BufferLineDevIconSelected = { fg = p.blue, bg = bg, bold = c.bold },
+    BufferLineDevIconInactive = { fg = muted, bg = bg_alt },
 
     ["@comment"] = { fg = muted, italic = c.italic },
     ["@comment.todo"] = { fg = p.magenta, bold = c.bold },
