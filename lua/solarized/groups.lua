@@ -183,7 +183,7 @@ function M.setup(p, c)
 		["@type.definition"] = { fg = p.yellow },
 		["@type.qualifier"] = { fg = p.yellow },
 		["@attribute"] = { fg = p.yellow },
-		["@property"] = { fg = fg },
+		["@property"] = { fg = p.yellow },
 		["@field"] = { fg = fg },
 		["@parameter"] = { fg = fg },
 		["@variable"] = { fg = fg },
