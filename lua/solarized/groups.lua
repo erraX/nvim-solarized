@@ -155,6 +155,13 @@ function M.setup(p, c)
 		BufferLineDevIconSelected = { fg = p.blue, bg = bg, bold = c.bold },
 		BufferLineDevIconInactive = { fg = muted, bg = bg_alt },
 
+		-- Plugin: indent-blankline
+		-- IndentBlanklineChar = { fg = colors.fg_whitespace },
+		-- IndentBlanklineContextChar = { fg = colors.purple },
+		-- IndentBlanklineSpaceChar = { fg = colors.fg_whitespace },
+		IblIndent = { fg = p.base0 },
+		-- IblScope = { fg = colors.purple },
+
 		["@comment"] = { fg = muted, italic = c.italic },
 		["@comment.todo"] = { fg = p.magenta, bold = c.bold },
 		["@constant"] = { fg = p.orange },
