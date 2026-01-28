@@ -159,7 +159,7 @@ function M.setup(p, c)
 		-- IndentBlanklineChar = { fg = colors.fg_whitespace },
 		-- IndentBlanklineContextChar = { fg = colors.purple },
 		-- IndentBlanklineSpaceChar = { fg = colors.fg_whitespace },
-		IblIndent = { fg = p.base0 },
+		IblIndent = { fg = p.base01 },
 		-- IblScope = { fg = colors.purple },
 
 		["@comment"] = { fg = muted, italic = c.italic },
